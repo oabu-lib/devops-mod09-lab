@@ -1,0 +1,69 @@
+# =========================================
+# Node.js & Frontend (HTML/CSS/JS)
+# =========================================
+node_modules/
+dist/
+build/
+
+# Package manager caches & states
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yaml
+.yarn/install-state.gz
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Bundler & Lint caches (Vite, Parcel, Webpack, ESLint)
+.vite/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# =========================================
+# Docker, Prometheus & Grafana
+# =========================================
+# Local persistent data directories mapped via Docker Compose volumes
+prometheus/data/
+grafana/data/
+data/
+prometheus_data/
+grafana_data/
+
+# Local Grafana SQLite database (if applicable)
+grafana.db
+
+# Local Docker override files for custom development setups
+docker-compose.override.yml
+
+# =========================================
+# Snyk & Security Scans
+# =========================================
+# Temporary scan reports, debugging logs, and local caches
+.snyk.d/
+snyk-debug.log
+.snyk-tokens
+
+# =========================================
+# OS & IDE Specifics
+# =========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
